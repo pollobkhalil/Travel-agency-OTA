@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;800&display=swap" rel="stylesheet">
+     <!-- tailwind custom classes -->
+     <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'fruit-primary': '#F85559',
+                        
+                    }
+                }
+            }
+        }
+    </script>
+    <!--  custom css -->
+    <style>
+      .font-epilogue {
+        font-family: 'Epilogue';
+      }
+    </style>
+    <title>Travel agency OTA</title>
+  </head>
+  <!-- Start nav menu -->
+     <header>
+
+      <div class="navbar bg-base-100 flex items-center justify-around shadow-sm">
+        <div class="">
+          <div class=" w-48  ">
+            <img src="./Image/Logo/png/Color logo - no background.png" alt="">
+          </div>
+          <div class="dropdown ">
+           
+            <ul class="menu  dropdown-content">
+              <li>
+                <li><a>Home</a></li>
+                <a>Hotel</a>
+                <ul class="">
+                  <li class="w-28"><a>Hotel List</a></li>
+                  <li><a>Hotel Details</a></li>
+                </ul>
+              </li>
+              <li>
+                <a>Tour</a>
+                <ul class="">
+                  <li class="w-28"><a>Tour List</a></li>
+                  <li><a>Tour Details</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+          </div>
+          
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal ">
+            <li><a>Home</a></li>
+            <li>
+              <details>
+                <summary>Hotel</summary>
+                <ul class="">
+                  <li class="w-28"><a>Hotel List</a></li>
+                  <li><a>Hotel Details</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Tour</summary>
+                <ul class="">
+                  <li class="w-28"><a>Tour List</a></li>
+                  <li><a>Tour Details</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Pages</summary>
+                <ul class="">
+                  <li class="w-28 "><a>Blog</a></li>
+                  <li><a>About Us</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </details>
+            </li>
+           
+                  <li></li>
+          </ul>
+        </div>
+        <div class="flex gap-16 ">
+          <a class="flex gap-4">
+            <img src="./Image/flag-us@2x 1.svg" alt="">English
+          </a>
+          <a>USD</a>
+          <a class="btn-primary py-2 px-6  text-black  bg-white border border-[#399F6E] hover:bg-[#399F6E] hover:text-white hover:border-[#399F6E]  ">Sign in </a>
+          <a><img src="./Image/circum_shopping-cart.svg" alt=""></a>
+        </div>
+      </div>
+     </header>
+  
+
+     <!-- end header -->
+
+     <!-- Hero section start -->
+
+     <main>
+
+      <div class="hero " >
+        <img src="./Image/Hero image.png" alt="">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content  text-neutral-content">
+          <div class="-mt-28">
+            <h1 class="mb-2 text-5xl font-bold">BOOK A HOME ON AGODA HOMES</h1>
+            <p class="mb-5 text-4xl">More spacious. More local. More of why you travel.</p>
+            
+        </div>
+      </div>
+
+      <div class="w-9/12 h-72 bg-[#F8F7F9] -mb-80 shadow-md">
+
+        <form class="max-w-4xl justify-center mt-20  mx-auto">
+         
+          <div class="relative">
+            <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+              <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+              </svg>
+            </div>
+            <input type="text" id="email-address-icon" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com">
+          </div>
+        </form>
+          
+        </div>
+
+      </div>
+
+
+
+      </div>
+
+
+     </main>
+
+
+
+
+  </body>
+</html>
